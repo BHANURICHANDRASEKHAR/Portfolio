@@ -1,0 +1,191 @@
+.container:nth-child(3)
+{
+    margin-top:10%;
+    padding:20px;
+    border-radius: 20px;
+    }
+.about1{
+    border-radius: 20px;
+    padding:5px;
+    line-height: 28px;
+
+}
+ .container .about1 p{
+    width:95%;
+    flex:0 1 200;
+    list-style:circle;  
+    text-transform: capitalize;
+}
+/* heading of the page */
+ h2{
+    color: #4169E1;
+    width: fit-content;
+    transition: 5s ease;
+    transition:border 1s;
+    cursor: pointer;
+    border-bottom:3px solid green;
+
+}
+
+.progress{
+    margin: 18px;
+    width: 70%;
+    height: 20px;
+}
+.progress .progress-bar{
+    background-color: orange;
+   color: black;
+   font-weight: bold;
+   border-radius: 10px
+}
+.self{
+    display:flex;
+    margin-top:30px;
+    padding: 20px;
+}
+.self div p{
+    border-bottom: 1px solid black;
+    width: auto;
+}
+.self div:first-child{
+    width:15%;
+}
+.container:nth-child(4)
+{
+    margin-top:1%;
+     }
+     /* cards css conatiner */
+     
+ /*button css  */
+ a{
+    text-decoration: none;
+    color: inherit;
+ }
+ a:hover{
+    color: white;
+ }
+ .button{
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    border:1px solid rgba(104, 85, 224, 1);
+     background: transparent;
+    width:180px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+     margin: 30px;  
+     transition: all .2s ease-in-out;
+
+      }
+    .button:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: rgba(104, 85, 224, 1);
+  }
+  .button1{
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+     background: transparent;
+    width:180px;
+    padding: 10px 0;
+    transition: 0.4s;
+     margin: 30px;  
+     padding:10px 0;
+     transition: all .2s ease-in-out;
+     border:1px solid rgb(122, 218, 159);
+     box-shadow: 0 0 20px rgba(109, 220, 133, 0.2);
+      }
+    .button1:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(145, 236, 163, 0.6);
+    background-color: rgb(66, 187, 94);
+  }
+ 
+ 
+  /* styles for conatct */
+  #conatiner
+{
+    margin-top:8%;
+    margin-bottom: 20%;
+    height:61vh;
+     }
+     .container:nth-child(6) .row{
+        margin-top:1%;
+        color: white;
+        margin-bottom: 10%;
+
+     } 
+     /* css for assitense */
+
+/* css for contact me */
+.col-6{
+    height: 300px;
+}
+
+
+.col-6 h4{
+    margin-top:7%;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-left: 2%;
+    color: white;
+    font-weight: bold;
+    margin-bottom:20px;
+    font-display:inherit;
+}
+.col-6 p{
+line-height: 10px;
+margin: 0;
+color: white;
+
+}
+.col-6 p i{
+    text-align: center;
+    color: white;
+
+}
+.media{
+   display: inline-block;
+   margin-left:20px;
+}
+/* media css */
+i{
+    height:20px;
+    width:30px;
+    margin:13px;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+#link:hover{
+    color: rgba(104, 85, 224, 1);
+    background:transparent;
+    transform: scaleX(1.2);
+
+}
+#link1:hover{
+    color: rgb(84, 201, 139);
+    background:transparent;
+    transform: scaleX(1.2);
+
+}
+
+
+#red:hover{
+    color:rgb(192, 71, 71);
+    background:transparent;
+    transform: scaleX(1.2);
+}
+.data{
+    margin-left: 10%;
+    margin-top: 5%;
+} 
+#row{
+    background-color:black;
+    border-radius: 10px;
+
+}

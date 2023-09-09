@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+html{
+    padding:0;
+    margin: 0;
+    user-select: none;
+
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: #eff4fd;
+    height: 100vh;
+
+
+}
+:host{
+  --hover--color--:blue;
+  --font-p-size--:25px;
+  --font-p-family:"Sofia", sans-serif;
+  --li--color:black;
+  --font-a-size--:45px;
+  --font-a-style:bold;
+}
+.head{
+    height: max-content;
+    width: max-content;
+   
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+   
+}
+nav ul li a{
+  color:black;
+  font-size:22px;
+  display:flex;
+  justify-content:end;
+  margin:30px;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a:before{
+    content: '';
+    position: absolute;
+     top:0;
+     left:0;
+     width:100%;
+    opacity: 0;
+     height:100%;
+     transition: 0s;
+     margin-bottom: 2px;
+} 
+nav ul li a:hover:before{
+    border-bottom: 2px solid blue;
+    color:black;
+    opacity: 1;
+    width: 100%;   
+    transform: translateX(-5%);
+}
+
+
+span{
+   color:#4169E1;
+}
+.card-text{
+    width:100%;
+    line-height: 30px;
+}
+.details{
+    margin-top: 12%;
+    height: 80%;
+}
+.details h3{
+    font-size: 50px;
+    color:black;
+    margin-bottom: 20px;
+}
+.details p{
+    color: black;
+    font-size: 25px;
+    width: 500px;
+}
+.details a{
+    margin-left: 10px;
+}
+.logos {
+    height: 78%;
+    width:50%;
+    position: absolute;
+    right:100px;
+    margin-top: 100px;
+    bottom: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.shape
+{
+    height:350px;
+    width:350px;
+   border-radius: 25% 75% 77% 23% / 50% 37% 63% 50% ; 
+        background-color: rgb(236, 203, 13);
+    
+}
+
+.logos .shape{
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform: translate(-55%,-85%);
+    transition: 2s ease;
+
+}
+.logos .img{
+    height:100%;
+     position: absolute;
+     left:40%;
+     bottom: 10%;
+     object-fit: cover;
+     transform: translateX(-40%);
+     transition: 2s ease;
+
+ }
+.img:hover{
+  left:47%;
+}
+.logos:hover .shape{
+    box-shadow: 0 0 10px 2px #48abe0;
+}
+
+/* media  */
+@media only screen and (max-width:1215px) and (min-width:790px)  {
+    .details{
+        margin-top: 8%;
+        margin-left: 0%;
+    }
+    .details p{
+        width: 300px;
+    }
+    .logos{
+        height: 80%;
+        width:45%;
+        position: absolute;
+        right:50px;
+        bottom: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (max-width:830px) {
+    .details{
+        margin-top:50%;
+        margin-left: -4%;
+    }
+   
+    .details p{
+        width: 300px;
+    }
+    .shape{
+      display: none;
+    }
+    .logos{
+        height: 60%;
+        width:45%;
+        position: absolute;
+        right:0px;
+        bottom: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .logos .img{
+         position: absolute;
+         left:40%;
+         bottom: 10%;
+         margin-top:30%;
+         transform: translateX(-44%);
+         transition: 2s ease;
+     }
+     
+     .logos:hover .img{
+        left:40%;
+      }
+      nav ul li a{
+        color:black;
+        font-size:22px;
+        display:flex;
+        justify-content:end;
+         margin: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        position: relative;
+      }
+
+}
+@media only screen and (max-width:700px)
+{
+    .details{
+        margin-left: 20px;
+
+    }
+    .details p{
+        width: 270px;
+    }
+    .details h3{
+        font-size: 45px;
+        color:black;
+        margin-bottom: 20px;
+    }
+    .logos{
+        height: 40%;
+        background-color: red;
+        width:45%;
+        position: absolute;
+        right:0px;
+        bottom: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    nav ul li a:hover:before{
+        border-bottom:2px solid gold;
+        color:black;
+        opacity: 1;
+        width:18%;   
+        transform: translateX(-5%);
+    }
+    
+    .about1 p{
+        width: 400px;
+        margin-top: 10px;
+    }
+    h2{
+        color:#4169E1;
+
+    }
+}
